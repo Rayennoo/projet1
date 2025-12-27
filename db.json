@@ -1,0 +1,211 @@
+{
+  "produits": [
+    {
+      "id": "f649",
+      "nom": "Combo Tondeuse et tondeuse de finition avec fil \"Pivot Motor Combo\"",
+      "description": "Tondeuse à lame ajustable avec 9 guides de coupe et tondeuse de finition à lame en T avec 4 guides de coupes.",
+      "prix": 99,
+      "quantite": 20,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/66677390/image.jpg",
+      "categorie": "outils coiffure"
+    },
+    {
+      "id": "d611",
+      "nom": "Shampoing densifiant",
+      "description": "Enrichi en magnésium, le shampoing densifiant \"Serioxyl Advanced\" purifie les racines et désobstrue les sites folliculaires de toute accumulation qui pourrait avoir un impact négatif sur la croissance saine des cheveux",
+      "prix": 30,
+      "quantite": 300,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/61202075/image.jpg",
+      "categorie": "cheveux"
+    },
+    {
+      "id": "f285",
+      "nom": "Shampoing épaississant",
+      "description": "Le shampoing Triphasic offre une action complète : il réduit la chute de cheveux, stimule la croissance, tonifie le cuir chevelu et améliore la qualité de la chevelure. Les cheveux sont ainsi plus résistants, plus denses et plus brillants.",
+      "prix": 35,
+      "quantite": 200,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/70351804/image.jpg",
+      "categorie": "cheveux"
+    },
+    {
+      "id": "4e49",
+      "nom": "Shampoing quotidien",
+      "description": "Avec le shampooing \"Homme N.03\" de Térapo Médik, accordez à votre chevelure une pause bien méritée qui débordant d’ingrédients naturels. Doux et riche en extraits végétaux, il s’adapte à tous les types de cheveux grâce à son pH neutre.\nFormat :",
+      "prix": 10,
+      "quantite": 200,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/67918372/image.jpg",
+      "categorie": "cheveux"
+    },
+    {
+      "id": "f9bc",
+      "nom": "Shampoing traitement",
+      "description": "Le shampoing traitement épaississant pour homme \"Recover\" d'Actiiv Hair Science est une solution méticuleusement conçue pour améliorer visiblement la densité des cheveux, ce qui donne une apparence plus épaisse et plus complète en seulement 90 jours.",
+      "prix": 12,
+      "quantite": 220,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/61939236/image.jpg",
+      "categorie": "cheveux"
+    },
+    {
+      "id": "3c62",
+      "nom": "Gel coiffant",
+      "description": "Créez un style qui dure toute la journée avec ce gel capillaire à tenue ferme et sans pellicules. Il aide à épaissir et à donner du corps et ce avec une bonne dose de brillance.",
+      "prix": 5,
+      "quantite": 300,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/64576629/image.jpg",
+      "categorie": "cheveux"
+    },
+    {
+      "id": "5935",
+      "nom": "Gel coiffant \"3 Triple Action\",",
+      "description": "Force, brillance et volume - Tenue extra-forte (250ml/8.8oz)",
+      "prix": 10,
+      "quantite": 300,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/39339844/image.jpg",
+      "categorie": "cheveux"
+    },
+    {
+      "id": "54d5",
+      "nom": "Tondeuse avec ou sans fil \"5-Star Cordless Senior\" Edition Métal - Lithium-ion ultra-résistante à lames \"Zero-Gap\"",
+      "description": "La tondeuse sans fil modèle #56441 \"5 Star Cordless Senior Metal Edition\" de Wahl, est la tondeuse de précision ultime conçue pour la coupe rapprochée et les dégradés.",
+      "prix": 261,
+      "quantite": 20,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/46619862/image.jpg",
+      "categorie": "outils coiffure"
+    },
+    {
+      "id": "8675",
+      "nom": "Gel coiffant \"Styling Gel Sweet Tobacco\"",
+      "description": "",
+      "prix": 22,
+      "quantite": 120,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/73413721/image.jpg",
+      "categorie": "cheveux"
+    },
+    {
+      "id": "2312",
+      "nom": "Soin prolongateur",
+      "description": "Le spray lissant BLOW.DRY EVER.SMOOTH réduit le temps de brushing et prolonge la durée de vie de la mise en plis. Obtenez une mise en plis lisse et soyeuse, avec une douceur ultime et une résistance à l'humidité pour une finition sans frisottis.",
+      "prix": 30,
+      "quantite": 100,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/60635295/image.jpg",
+      "categorie": "cheveux"
+    },
+    {
+      "id": "ab63",
+      "nom": "Sérum épaississant",
+      "description": "La formule est conçue avec le HTX, un amalgame de niacinamide, panthénol et caféine pour augmenter le diamètre de chaque cheveu. Il épaissit visiblement les cheveux (jusqu'à 8 heures), c'est comme si vous aviez 11 000 mèches de cheveux supplémentaires.",
+      "prix": 45,
+      "quantite": 120,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/64070407/image.jpg",
+      "categorie": "cheveux"
+    },
+    {
+      "id": "a568",
+      "nom": "Vaporisateur tonique",
+      "description": "Reuzel \"Spray Grooming Tonic\" vous offre le volume, la tenue et la protection contre la chaleur dans une brume parfaite pour les hommes aux cheveux fins.",
+      "prix": 35,
+      "quantite": 100,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/62257623/image.jpg",
+      "categorie": "cheveux"
+    },
+    {
+      "id": "126c",
+      "nom": "Spray texturant",
+      "description": "Le vaporisateur texturant sec et invisible \"Dry Texturizing Spray\"de Oribe, crée un volume incroyable et laisse une texture élégante à la chevelure. ",
+      "prix": 50,
+      "quantite": 100,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/62903868/image.jpg",
+      "categorie": "cheveux"
+    },
+    {
+      "id": "1df1",
+      "nom": "Vaporisateur coiffant \"Hair Spray\"",
+      "description": "La vaporisateur coiffant \"Hairspray\" de STMNT Grooming Goods à utiliser sur les cheveux secs. Il procure une tenue flexible et légère, appliquer le de nouveau pour amplifier la tenue.\n",
+      "prix": 25,
+      "quantite": 200,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/42662176/image.jpg",
+      "categorie": "cheveux"
+    },
+    {
+      "id": "aafe",
+      "nom": "Huile à barbe \"Aphrodisiac\" (30ml/1.0oz)",
+      "description": "Conçu pour conditionner la peau sous la barbe en évitant les pellicules et la desquamation pour garder la vie de votre barbe confortable, comme il se doit. L'huile de barbe \"Aphrodisiac\" a un parfum masculin classique de cuir et de bois de cèdre.",
+      "prix": 20,
+      "quantite": 200,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/71487188/image.jpg",
+      "categorie": "barbe"
+    },
+    {
+      "id": "3c3a",
+      "nom": "Huile à barbe \"Gentlemen's Blend Bourbon\"",
+      "description": "Conçu pour conditionner la peau sous la barbe en évitant les pellicules et la desquamation pour garder la vie de votre barbe confortable. L'huile de barbe \"Gentlemen's Blend\" de G.B.S, c'est un parfum de bourbon distinctif avec des notes de bois de santal",
+      "prix": 20,
+      "quantite": 100,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/71487708/image.jpg",
+      "categorie": "barbe"
+    },
+    {
+      "id": "0b59",
+      "nom": "Tondeuse avec ou sans fil avec pile lithium-ion \"FX673N LithiumFX+\" - Or",
+      "description": "La tondeuse avec ou sans fil LithiumFX+ FX673N. La poignée à prise ergonomique de cette tondeuse est conçue pour épouser parfaitement la forme de votre main, pour un maximum de confort tout au long de la journée.",
+      "prix": 151,
+      "quantite": 20,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/44827531/image.jpg",
+      "categorie": "outils coiffure"
+    },
+    {
+      "id": "7c28",
+      "nom": "Exfoliant visage avec aloès",
+      "description": "L'exfoliant facial \"Facial Fresh Scrub\" Elegance est naturelle est formulé pour éliminer en douceur les traces de saleté, l'excès de sébum et les points noirs.",
+      "prix": 35,
+      "quantite": 200,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/58532006/image.jpg",
+      "categorie": "visage"
+    },
+    {
+      "id": "08eb",
+      "nom": "Tondeuse sans fil avec pile lithium-ion \"FreshFade 2020C Gold Clipper\" - Or",
+      "description": "La première et la seule technologie \"Stay-Cool\" brevetée au monde. JRL est fier de présenter les tondeuses \"Fresh Fade\" 2020C Gold avec la technologie brevetée \"Cool-Blade\". Les premières lames qui restent froid même après une utilisation intensive.",
+      "prix": 220,
+      "quantite": 20,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/55257482/image.jpg",
+      "categorie": "outils coiffure"
+    },
+    {
+      "id": "3da5",
+      "nom": "Ciseaux amincisseur",
+      "description": "",
+      "prix": 10,
+      "quantite": 200,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/22455598/image.jpg",
+      "categorie": "outils coiffure"
+    },
+    {
+      "id": "ba01",
+      "nom": "Ensemble de 8 guides de coupe \"FXPCG Premium Clipper Guards\"",
+      "description": "Les guides pour tondeuse FXPCG \"BaByliss4Barbers Premium Clipper Guards\" sont fabriquées avec de la fibre de verre, renforcé de nylon et de clips métalliques. Utilisé pour guider les cheveux sur la lame du couteau pour une coupe nette et précise.",
+      "prix": 10,
+      "quantite": 100,
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/617620/files/41777538/image.jpg",
+      "categorie": "outils coiffure"
+    },
+    {
+      "id": "e9f5",
+      "nom": "Brosse de Séchoir",
+      "description": "Bois",
+      "prix": 12,
+      "quantite": 50,
+      "imageUrl": "https://izy.tn/monipec/2024/01/BROSSE_SECHOIR_CLASSIQUE_RF_458_d206192f05-1-600x659.png",
+      "categorie": "outils coiffure"
+    },
+    {
+      "id": "a909",
+      "nom": "Brosse de Séchoir",
+      "description": "",
+      "prix": 12,
+      "quantite": 50,
+      "imageUrl": "https://izy.tn/monipec/2024/01/BROSSE_SECHOIR_CLASSIQUE_RF_458_d206192f05-1-600x659.png",
+      "categorie": "outils coiffure"
+    }
+  ]
+}
