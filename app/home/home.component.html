@@ -1,0 +1,119 @@
+<section class="hero-section">
+  <div class="hero-content">
+    
+    <h1>Produits de Coiffure pour Homme</h1>
+    <p>Découvrez notre sélection de produits capillaires professionnels</p>
+    <button (click)="scrollToLatest()" class="cta-button">Voir les Produits</button>
+  
+  </div>
+</section>
+
+<div *ngIf="isLoading" class="loading-container">
+  <div class="spinner"></div>
+  <p>Chargement des derniers produits...</p>
+</div>
+
+<div *ngIf="error" class="error-container">
+  <p>{{ error }}</p>
+  <button (click)="loadLatestProducts()" class="retry-button">Réessayer</button>
+</div>
+
+<section id="latest-products" class="latest-products" *ngIf="!isLoading && !error">
+  <div class="container">
+    <h2 class="section-title">Derniers Produits</h2>
+    <p class="section-subtitle">Découvrez nos nouveautés</p>
+    
+    <div class="products-grid">
+      <div class="product-card" *ngFor="let product of latestProducts" (click)="openProductModal(product)">
+        <div class="product-image-container">
+          <img [src]="product.imageUrl" [alt]="product.nom" class="product-image">
+          <span class="new-badge" *ngIf="isNewProduct(product)">NOUVEAU</span>
+        </div>
+        
+        <div class="product-info">
+          <span class="product-category">{{ product.categorie }}</span>
+          <h3 class="product-name">{{ product.nom }}</h3>
+          <p class="product-description">{{ product.description }}</p>
+          
+          <div class="product-footer">
+            <span class="product-price">{{ product.prix.toFixed(2) }}tnd</span>
+            <button 
+              class="add-to-cart-btn" 
+              (click)="addToCart(product, $event)"
+              [disabled]="product.quantite === 0">
+              {{ product.quantite > 0 ? 'Ajouter au Panier' : 'Rupture de Stock' }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="view-all-container">
+      <button (click)="viewAllProducts()" class="view-all-button" *ngIf="!showAll">Voir Tous les Produits</button>
+      <button (click)="showLessProducts()" class="view-all-button" *ngIf="showAll">Voir Moins</button>
+    </div>
+  </div>
+</section>
+
+<div class="modal-overlay" *ngIf="selectedProduct" (click)="closeProductModal()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <button class="modal-close" (click)="closeProductModal()">✕</button>
+    
+    <div class="modal-body">
+      <div class="modal-image">
+        <img [src]="selectedProduct.imageUrl" [alt]="selectedProduct.nom">
+      </div>
+      
+      <div class="modal-details">
+        <div class="modal-category">{{ selectedProduct.categorie }}</div>
+        <h2 class="modal-title">{{ selectedProduct.nom }}</h2>
+        <p class="modal-description">{{ selectedProduct.description }}</p>
+        
+        <div class="modal-meta">
+          <div class="meta-item">
+            <span class="label">Prix:</span>
+            <span class="value">{{ selectedProduct.prix.toFixed(2) }} tnd</span>
+          </div>
+          <div class="meta-item">
+            <span class="label">Disponibilité:</span>
+            <span class="value">{{ selectedProduct.quantite > 0 ? 'Disponible' : 'Rupture de Stock' }}</span>
+          </div>
+        </div>
+        
+        <button 
+          class="modal-add-btn" 
+          (click)="addToCart(selectedProduct, $event); closeProductModal()"
+          [disabled]="selectedProduct.quantite === 0">
+          {{ selectedProduct.quantite > 0 ? 'Ajouter au Panier' : 'Rupture de Stock' }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="features-section">
+  <div class="container">
+    <div class="features-grid">
+      <div class="feature-card">
+        <i class="feature-icon">🚚</i>
+        <h3>Livraison Gratuite</h3>
+        <p>Pour les commandes de plus de 150 tnd</p>
+      </div>
+      <div class="feature-card">
+        <i class="feature-icon">✓</i>
+        <h3>Garantie de Qualité</h3>
+        <p>Produits de qualité professionnelle</p>
+      </div>
+      <div class="feature-card">
+        <i class="feature-icon">↻</i>
+        <h3>Retours Faciles</h3>
+        <p>Politique de retour de 30 jours</p>
+      </div>
+      <div class="feature-card">
+        <i class="feature-icon">💬</i>
+        <h3>Support 24/7</h3>
+        <p>Assistance d'experts</p>
+      </div>
+    </div>
+  </div>
+</section>

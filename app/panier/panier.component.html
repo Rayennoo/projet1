@@ -1,0 +1,48 @@
+<div class="cart-container">
+	<div class="cart-header">
+		<h1>Votre Panier</h1>
+		<span class="item-count" *ngIf="items.length">{{ items.length }} produit(s)</span>
+	</div>
+
+	<div class="empty-state" *ngIf="!items.length">
+		<p>Votre panier est vide pour le moment.</p>
+		<a routerLink="/home" class="back-link">Continuer vos achats</a>
+	</div>
+
+	<div class="cart-content" *ngIf="items.length">
+		<div class="cart-list">
+			<div class="cart-item" *ngFor="let item of items; trackBy: trackByProduct">
+				<div class="thumb">
+					<img [src]="item.product.imageUrl" [alt]="item.product.nom" />
+				</div>
+
+				<div class="details">
+					<div class="row-between">
+						<h3>{{ item.product.nom }}</h3>
+						<span class="price">{{ item.product.prix | number:'1.2-2' }} tnd</span>
+					</div>
+					<p class="category">{{ item.product.categorie }}</p>
+					<p class="description">{{ item.product.description }}</p>
+
+					<div class="row-between meta">
+						<span>Quantité: {{ item.quantity }}</span>
+						<span>Sous-total: {{ (item.product.prix * item.quantity) | number:'1.2-2' }} tnd</span>
+					</div>
+
+					<button class="remove-btn" (click)="remove(item.product)">Retirer</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="cart-summary">
+			<div class="summary-line">
+				<span>Total</span>
+				<strong>{{ total | number:'1.2-2' }} tnd</strong>
+			</div>
+			<div class="summary-actions">
+				<button class="clear-btn" (click)="clearCart()">Vider le panier</button>
+				<button class="checkout-btn" disabled>Procéder au paiement</button>
+			</div>
+		</div>
+	</div>
+</div>

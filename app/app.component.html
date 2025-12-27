@@ -1,0 +1,29 @@
+<nav class="navbar">
+  <div class="nav-container">
+    <h1 class="nav-title"> Coiffure Homme</h1>
+    <div class="nav-links">
+      <a routerLink="/gestion-produits" routerLinkActive="active">Gestion Produits</a>
+      <a routerLink="/ajout-produit" routerLinkActive="active">Ajouter Produit</a>
+      <a routerLink="/home" routerLinkActive="active">Home</a>
+      <a routerLink="/panier" routerLinkActive="active" class="panier-link" title="Panier">
+        <span class="panier-icon">🛒</span>
+      </a>
+      <button class="menu-btn" type="button" (click)="toggleCategoriesMenu()" aria-label="Catégories">
+        <span [class.bar-open]="showCategories"></span>
+        <span [class.bar-open]="showCategories"></span>
+        <span [class.bar-open]="showCategories"></span>
+      </button>
+      <div class="overlay" *ngIf="showCategories" (click)="closeCategories()"></div>
+      <div class="cat-dropdown" *ngIf="showCategories">
+        <div class="cat-header">Catégories</div>
+        <div class="cat-item" (click)="onCategorySelect('')">Toutes les catégories</div>
+        <div class="cat-item" *ngFor="let cat of categories" (click)="onCategorySelect(cat)">{{ cat }}</div>
+        <div class="cat-msg" *ngIf="catError">{{ catError }}</div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="main-content">
+  <router-outlet />
+</main>
